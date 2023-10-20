@@ -1,3 +1,4 @@
+
 import { TodoItem } from './TodoItem'
 import './App.css'
  export function App (){
@@ -17,5 +18,3 @@ import './App.css'
             </section>
         </article>
     )
-
-}
