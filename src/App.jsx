@@ -2,6 +2,7 @@
 import { TodoItem } from './TodoItem'
 import './App.css'
  export function App (){
+
     return(
         <article className="tdl-article">
             <div className='tdl-article-div'>
@@ -14,7 +15,10 @@ import './App.css'
                 </header>
             </div>
             <section>
-                <TodoItem/>
+
+                <TodoItem />
+                <TodoItem />
+                <TodoItem />
             </section>
         </article>
     )
